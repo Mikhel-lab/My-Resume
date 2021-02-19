@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+
+<div class="sidebar">
+	<NavMenu />
+</div>
+
+<div class="main">
+	<div class="top-row px-4 fixed-top">
+		<div >Welcome to Michael Aiyetan's Resume | <a href="/Docs/Michael_Aiyetan+(3).pdf" target="_blank" class="btn btn-danger rounded-pill pdf-download"><span class="oi oi-cloud-download"></span> Download PDF</a></div>
+	</div>
+
+	<div class="content px-4">
+		@Body
+	</div>
+
+	<div class="bottom-row px-4 fixed-bottom">
+		<footer class="text-white-50">
+			<h5>&copy; @DateTime.Now.Year | Designed by Michael - Blazor</h5>
+		</footer>
+	</div>
+</div>
